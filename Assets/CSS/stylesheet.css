@@ -1,0 +1,167 @@
+/* Contents 
+
+ 11 - Global styling
+ 66 - Header styling
+ 81 - Navigation styling
+ 95 - AboutMe styling
+ 129 - Portfolio styling
+ 139 - Resume styling
+ 130 - Contact styling
+ 147 - Footer stling
+
+ */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    background-color: #8000ff;
+    margin: auto;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+    position: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+    background-color:  #5e22ec;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    padding: 50px;
+    height: auto;
+    border: white; 
+    border-style: dotted; 
+    border-radius: 25px;
+    line-height: normal;
+}
+
+/* Header styling */
+
+  header {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    padding: 50px;
+    height: auto;
+    border: white; 
+    border-style: dotted; 
+    border-radius: 25px;
+    background-color:  #5e22ec;
+}
+
+/* Navigation bar styling */
+nav {
+    position: relative;
+    float: right;
+    margin-right: 200 px;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+
+    float: right;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+/* About Me styling */
+
+.AboutMe {
+    display: inline-block;
+}
+
+.AboutMe p {
+    margin-top: 25px;
+}
+
+.AboutMe img {
+    float: left;
+    height: 250px;
+    width: auto;
+    padding-right: 25px;
+    margin: auto;
+    border: white, 10px;
+}
+
+/* Portfolio styling */
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.div2 img {
+    display: inline-block;
+    padding-top: 25px;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Contact styling */
+
+.Contact {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    font-size: 30 px;
+}
+
+/* Resume styling */
+
+embed {
+    max-height: 700px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+/* Footer styling */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Footer h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+.Footer p {
+    text-align: center;
+    justify-content: center;
+}
